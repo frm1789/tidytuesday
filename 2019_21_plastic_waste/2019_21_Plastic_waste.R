@@ -89,33 +89,3 @@ vis2 <- ggplot(df_waste_misma, aes(x=per_capita_mismanaged_plastic, y=per_capita
 plot(vis2)
 
 
-## 3) Mismanaged plastic vs. plastic waste: 0.27
-##Ratio bewteen waste_ratio & mismanaged_plastic
-# per_capita_mismanaged_plastic: Amount of mismanaged plastic waste per capita in kg/day
-# per_capita_plastic_waste: Amount of plastic waste per capita in kg/day
-df_waste_misma <- df_waste_misma %>%
-  mutate(ratio_waste = per_capita_mismanaged_plastic / per_capita_plastic_waste) 
-
-top_vis3 <- df_waste_misma[df_waste_misma$ratio_waste > 0.50 & 
-                             df_waste_misma$ratio_waste <= 0.99 & 
-                             df_waste_misma$per_capita_mismanaged_plastic > 0.135 & 
-                             df_waste_misma$per_capita_mismanaged_plastic < 0.4, ]
-
-vis3 <- ggplot(df_waste_misma, aes(x=ratio_waste, y=per_capita_mismanaged_plastic)) + 
-  geom_point(aes(col=continent, size=per_capita_mismanaged_plastic )) + 
-  scale_color_manual(values=c("#440154FF", "#3B528BFF", "#21908CFF", "#5DC863FF", "#FDE725FF"))+
-  geom_smooth(method="loess", se=T) + 
-  geom_encircle(aes(x=ratio_waste, y=per_capita_mismanaged_plastic), 
-                data=top_vis3, 
-                color="#440154FF", 
-                size=2, 
-                expand=0.1) +  
-  geom_text(data=top_vis3,
-            aes(label=entity)) +
-  labs(title="Countries with more mismanaged plastic and  waste ratio per capita", 
-       subtitle="In purple, top countries with values above the general average for both waste ratio and mismanaged plastic.",
-       x="Waste Ratio", 
-       y="Mismanaged Plastic", 
-       caption = "Source: Our World in Data | by: Florencia Mangini")+
-  theme_minimal() 
-plot(vis3)
