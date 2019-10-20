@@ -8,6 +8,7 @@
 
 ![Image description](https://raw.githubusercontent.com/frm1789/tidytuesday/master/2019_42_big_EPA_cars/Savings_Automatic_Manual_Cars_2018_2019.png)
 
+[Code](https://github.com/frm1789/tidytuesday/blob/master/2019_42_big_EPA_cars/bigCar.R) 
 
 ## May 21th, 2019 | Global Plastic Waste
 
