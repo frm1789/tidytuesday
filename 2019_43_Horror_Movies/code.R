@@ -84,7 +84,7 @@ ggplot() +
   theme(legend.position="none") +
   coord_equal() +
   labs(
-    title ="Which are the countries that spend more money producing terror movies?",
+    title ="Which are the countries that spend more money producing horror movies?",
     subtitle = "The countries with majors inversions are the USA (3.287 M), UK (91M), and Spain(52).",
     caption = "Plot: Florencia Mangini (@manginiflor)\nsource: IMBd for Tidytuesday")
 
