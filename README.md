@@ -1,6 +1,12 @@
 # TidyTuesday
 
 **#tidytuesday**, is a weekly project to be analyzed by the R community. Following there are my contributions.
+## October 29th, 2019 | Squirrel Census
+
+![Image description](2019_44_nyc_squirrels/Squirrel_Census.gif)
+
+
+[Code](https://github.com/frm1789/tidytuesday/blob/master/2019_44_nyc_squirrels/code.R) 
 
 ## October 22th, 2019 | Horror movies
 
