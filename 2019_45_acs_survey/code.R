@@ -15,7 +15,7 @@ table_num <- 1:6
 # Generic read function for this dataset
 
 supp_read <- function(number, ...){
-  read_excel(here("2019", "2019-11-05", glue::glue("supplemental-table{number}.xlsx")), ...)
+  read_excel(here("2019_45_acs_survey", glue::glue("supplemental-table{number}.xlsx")), ...)
 }
 
 # 3 datasets for bikes, each of which has a corresponding City Size
@@ -80,11 +80,11 @@ full_commute <-
   left_join(state_df, by = c("state"))
 
 full_commute %>% 
-  write_csv(here("2019", "2019-11-05", "commute.csv"))
+  write_csv(here("2019_45_acs_survey", "commute.csv"))
 
 # ACS Data ----------------------------------------------------------------
 
-acs_data <- read_csv(here("2019", "2019-11-05", "table_3.csv"))
+acs_data <- read_csv(here("2019_45_acs_survey", "table_3.csv"))
 
 age_data <- acs_data %>% 
   slice(1:6)
