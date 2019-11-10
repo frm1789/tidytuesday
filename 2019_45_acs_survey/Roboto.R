@@ -9,7 +9,6 @@ devtools::install_github("hrbrmstr/hrbrthemes", force = TRUE)
 hrbrthemes::import_roboto_condensed()
 d <- read.csv(extrafont:::fonttable_file(), stringsAsFactors = FALSE)
 
-
 # Example 
 ggplot(mtcars, aes(mpg, wt)) +
   geom_point(color = ft_cols$yellow) +
