@@ -13,9 +13,6 @@
 ![Image description](https://raw.githubusercontent.com/frm1789/tidytuesday/master/2019_43_Horror_Movies/bubble_plot_IMDB_tiddytuesday.png)
 
 
-![Image description](https://raw.githubusercontent.com/frm1789/tidytuesday/master/2019_43_Horror_Movies/bar_plot_IMDB_tidytuesday.png
-)
-
 [Code](https://github.com/frm1789/tidytuesday/blob/master/2019_43_Horror_Movies/code.R) 
 
 ## October 15th, 2019 | Car Fuel Economy
