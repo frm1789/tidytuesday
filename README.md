@@ -26,7 +26,7 @@
 
 ![Image description](https://raw.githubusercontent.com/frm1789/tidytuesday/master/2019_42_big_EPA_cars/Evolution_Savings_Automatic_vs_Manual_cars.png)
 
-(https://raw.githubusercontent.com/frm1789/tidytuesday/master/2019_42_big_EPA_cars/Savings_Automatic_Manual_Cars_2018_2019.png)
+![Image description](https://raw.githubusercontent.com/frm1789/tidytuesday/master/2019_42_big_EPA_cars/Savings_Automatic_Manual_Cars_2018_2019.png)
 
 [Code](https://github.com/frm1789/tidytuesday/blob/master/2019_42_big_EPA_cars/bigCar.R) 
 
