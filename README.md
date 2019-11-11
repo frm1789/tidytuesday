@@ -1,6 +1,13 @@
 # TidyTuesday
 
 **#tidytuesday**, is a weekly project to be analyzed by the R community. Following there are my contributions.
+## November 5th, 2019 | ACS 
+
+![Image description](2019_45_acs_survey/ACS_Walking_Bicycling.png)
+
+
+[Code](https://github.com/frm1789/tidytuesday/blob/master/2019_45_acs_survey/Plot.R)
+
 ## October 29th, 2019 | Squirrel Census
 
 ![Image description](2019_44_nyc_squirrels/Squirrel_Census.gif)
