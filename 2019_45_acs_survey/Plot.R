@@ -56,8 +56,7 @@ ggplot(both.dfs)+
        subtitle="Data from Census 2000 and American Community Survey 2008–2012",
        caption="Plot: @manginiflor | Data: ACS") + 
   theme_ft_rc()+
-  theme(axis.text.x=element_text(angle=45,hjust=1),
-        legend.position="none")
+  theme(axis.text.x=element_text(angle=45,hjust=1))
 
 
 
